@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RunEvent",
+  "type": "object",
+  "required": ["type", "payload"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "backend.status",
+        "session.created",
+        "run.started",
+        "step.started",
+        "state.captured",
+        "model.delta",
+        "model.output",
+        "action.started",
+        "action.finished",
+        "step.finished",
+        "plan.updated",
+        "judge.result",
+        "run.awaiting_user",
+        "artifact.created",
+        "run.finished",
+        "run.failed",
+        "error"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+NOTICE
+
+This project contains an independent Kotlin/Android client, a Kotlin/Ktor service and a
+Python wrapper whose behaviour and UI are derived from the following MIT-licensed projects:
+
+1. browser-use
+   https://github.com/browser-use/browser-use
+   Copyright (c) 2024 Gregor Zunic
+   MIT License. The agent loop, action space, DOM serialization format, prompt structure and
+   event semantics referenced by the implementation plan originate from this project.
+
+2. chat-ui-example
+   https://github.com/browser-use/chat-ui-example
+   Copyright (c) 2026 Browser Use
+   MIT License. The visual language (zinc palette, composer geometry, step sections, tool pills,
+   live browser panel) is reproduced from this reference UI.
+
+No Browser Use logo or trademark is used as the identity of this project. "Browser Use" and
+"browser-use" are names of their respective owners. This repository is not affiliated with or
+endorsed by Browser Use.

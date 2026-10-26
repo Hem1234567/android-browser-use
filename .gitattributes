@@ -1,0 +1,13 @@
+* text=auto
+*.kt text eol=lf
+*.kts text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+gradle-wrapper.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary

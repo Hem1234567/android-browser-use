@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+
+# Generated
+*.apk
+*.aab
+*.zip
